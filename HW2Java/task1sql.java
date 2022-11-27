@@ -22,7 +22,8 @@ public static void main(String[] args) throws Exception {
     String s = st.nextLine();
     rd.close();
     System.out.println(s);
-    
+    String s = s.split(',',1);
+    System.out.println(s);    
 
 
 
