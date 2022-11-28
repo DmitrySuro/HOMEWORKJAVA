@@ -1,7 +1,5 @@
 package HW2Java;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.util.Arrays;
 
@@ -22,8 +20,8 @@ public class task2 {
                     arr[i - 1] = temp;
                     flag = false;
                 }
-            log.append(Arrays.toString(arr));
-            log.append("\n");
+                log.append(Arrays.toString(arr));
+                log.append("\n");
             }
         }
         log.close();

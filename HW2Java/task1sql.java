@@ -1,6 +1,5 @@
 package HW2Java;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
@@ -17,10 +16,10 @@ public class task1sql {
         FileReader rd = new FileReader("C:/Users/Пользователь/Desktop/HomeWorkJava/HW2Java/task1.json");
         Scanner st = new Scanner(rd);
         String s = st.nextLine();
+        st.close();
         rd.close();
         s = s.substring(1, s.length() - 1);
         s = s.replaceAll("\"", "");
-        System.out.println(s);
         String[] words = s.split(",");
         for (int i = 0; i < words.length; i++) {
             String[] temp = words[i].split(": ");
