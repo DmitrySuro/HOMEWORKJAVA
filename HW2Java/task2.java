@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class task2 {
     public static void main(String[] args) throws Exception {
         int[] arr = { 5, 4, 3, 276, 9, 24, 57, -23 };
-        FileWriter log = new FileWriter("log_arr.txt");
+        FileWriter log = new FileWriter(".\\HW2Java\\log_arr.txt");
         boolean flag = false;
         while (!flag) {
             flag = true;
