@@ -3,7 +3,6 @@ package HW5Java;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Scanner;
 
 // Реализуйте структуру телефонной книги
 //  с помощью HashMap, учитывая, что 1 человек 

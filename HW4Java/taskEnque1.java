@@ -1,5 +1,4 @@
 package HW4Java;
-import HW4Java.taskEnque;
 public class taskEnque1 {public static void main(String[] args) {
     taskEnque<Integer> linked_list = new taskEnque<>();
     linked_list.enqueue(2);
